@@ -1,0 +1,13 @@
+{
+  "name": "home_nsix",
+  "version": "0.1.0",
+  "private": false,
+  "description": "",
+  "license": "AGPL-3.0",
+  "author": "GB",
+  "devDependencies": {
+  },
+  "scripts": {
+    "start": "live-server public"
+  }
+}
