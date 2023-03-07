@@ -1,0 +1,71 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
+site_name: Numérique et sciences de l'ingénieur @ Bamana
+site_url: https://nsix.fr
+site_description: Page qui regroupe mes cours et outils pour le lycée Younoussa Bamana
+site_author: Guillaume Bourel
+
+repo_url: https://github.com/gbourel/nsix_home
+repo_name: gbourel/nsix_home
+
+theme:
+  name: material
+  language: fr
+  logo: img/nsix-logo.svg
+  favicon: img/robo5.png
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Mode clair
+    - media: "(prefers-color-scheme: light)"
+      scheme: material
+      primary: blue
+      toggle:
+        icon: material/weather-night
+        name: Mode sombre
+  features:
+    - navigation.instant
+    - navigation.tracking
+    # - navigation.footer
+
+plugins:
+  - tags
+  - offline
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - toc:
+      permalink: true
+
+nav:
+  - Accueil: index.md
+  - Outils:
+    - Programmation: python.md
+    - Robots: remote.md
+  # - Cours:
+  #   - NSI: nsi.md
+  - Liens: links.md
+
+extra_css:
+  - css/nsix_extra.css
+# extra_javascript
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/gbourel/nsix_home
+
+copyright: Copyright &copy; 2022 - 2023 Guillaume Bourel
