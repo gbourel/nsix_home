@@ -1,3 +1,3 @@
 ## Page d'accueil de [nsix.fr](https://nsix.fr)
 
-Page HTML basique.
+Page d'accueil pour les cours et activités proposé sur [nsix.fr](https://nsix.fr).

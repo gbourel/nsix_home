@@ -14,18 +14,18 @@ des exercices en ligne à faire chez-soi, en classe, sur la barge ou à la plage
 
 ### :material-robot: Pilotage de robots à distance
 
-[![Python](img/robots.png){ align=right }](https://sphero.nsix.fr)
+[![Python](img/robots.png){ align=right }](https://robots.nsix.fr)
 
 Pilotage à distance des robots utilisés au lycée. Il est possible d'essayer son code directement en ligne. Pour programmer et lancer l'exécution depuis un ordinateur ou un smartphone :
 
-[https://sphero.nsix.fr]()
+[https://robots.nsix.fr](https://robots.nsix.fr)
 
 ### :fontawesome-solid-bolt-lightning: Simulateur de graveur laser
 
 [![Laser](img/laser.png){align=left}](https://laser.nsix.fr)
 Simulateur de graveur laser qui permet de tester du G-Code pour le pilotage d'un graveur laser. Déplacer et découper, à vous d'écrire ou de générer les commandes pour cette découpe.
 
-[https://laser.nsix.fr]()
+[https://laser.nsix.fr](https://laser.nsix.fr)
 
 ### :material-database: Enquête SQL
 
@@ -33,7 +33,7 @@ Simulateur de graveur laser qui permet de tester du G-Code pour le pilotage d'un
 
 A vous de mener l'enquête. Vous avez quelques indices, vous êtes malin, alors à vous de trouver qui se cache derrière cette lettre. Une base de données, des requêtes SQL : menez l'enquête.
 
-[https://enquetesql.nsix.fr]()
+[https://enquetesql.nsix.fr](https://enquetesql.nsix.fr)
 
 <!--
 <a href="https://app.nsix.fr" class="disabled"
